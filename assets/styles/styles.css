@@ -55,6 +55,13 @@ h2 {
   background-color: #fff;
 }
 
+#skreen {
+  height: 5vh;
+  border: 2px solid #c08a00;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
 #check {
   background-color: #fff;
   color: #c08a00;
