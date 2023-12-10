@@ -2,7 +2,7 @@
 const inputElement = document.querySelector('.js-input')
 const outputElement = document.querySelector('.js-output')
 
-function palindromeCheck(){
+function palindromeCheck () {
   // insist on the user input string case to be compared
   const take = inputElement.value.toLowerCase()
 
@@ -18,7 +18,7 @@ function palindromeCheck(){
 }
 
 // RESET APP
-function clearScreen(){
+function clearScreen () {
   outputElement.value = ''
   inputElement.value = ''
 }
