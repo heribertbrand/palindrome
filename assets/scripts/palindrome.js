@@ -27,4 +27,4 @@ const clearScreen = () => {
 }
 
 const action2 = clearScreen()
-console.log(action2)
+console.log(action2())
