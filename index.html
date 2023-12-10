@@ -7,16 +7,23 @@
     <link rel="stylesheet" href="assets/styles/styles.css" />
   </head>
   <body>
-    <div id="container">
-      <h2>PalindroMe</h2>
-      <div id="app">
-        <div id="container2">
-          <input type="text" id="screen" placeholder="..." />
-          <input type="text" id="skreen" placeholder="..." />
-        </div>
-        <button id="check">Check</button>
+    <div class="container">
+      <h2 class="header">isPalindroMe?</h2>
+      <div class="app">
+        <input type="text" class="js-input screen" placeholder="..type here.." />
+        <button onclick="
+          palindromeCheck()
+        " class="js-button check">Check</button>
+
+        <button onclick="
+          clearScreen()
+        " class="js-button check">Reset</button>
+        <!-- <p class="js-output screen"></p> -->
+        <input type="text" class="js-output screen" placeholder="result" />
       </div>
-      <span><b><em>sdi</em> -Tex-</b></span>
+      <span><a href="#" class="about"><b><em>- sdi</em> -Tex -</b></a></span>
     </div>
+
+    <script src="./assets/scripts/palindrome.js"></script>
   </body>
 </html>
