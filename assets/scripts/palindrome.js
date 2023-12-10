@@ -17,8 +17,7 @@ const palindromeCheck = () => {
   outputElement.value = 'Palindrome!'
 }
 
-const action1 = palindromeCheck()
-console.log(action1())
+console.log(palindromeCheck())
 
 // RESET APP
 const clearScreen = () => {
@@ -26,5 +25,4 @@ const clearScreen = () => {
   inputElement.value = ''
 }
 
-const action2 = clearScreen()
-console.log(action2())
+console.log(clearScreen())
