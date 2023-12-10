@@ -17,8 +17,12 @@ function palindromeCheck () {
   outputElement.value = 'Palindrome!'
 }
 
+let action1 = palindromeCheck()
+
 // RESET APP
-function clearScreen () {
+const clearScreen = () => {
   outputElement.value = ''
   inputElement.value = ''
 }
+
+let action2 = clearScreen()
