@@ -11,18 +11,16 @@ const palindromeCheck = () => {
   // Loop for matches during simultaenous iterations from both ends heading towards the 'middle' of the inputed string
   for (let i = 0; i < stretch / 2; i++) {
     if (take[i] !== take[stretch - 1 - i]) {
-      outputElement.value = 'Not a Palindrome!'
+      return outputElement.value = 'Not a Palindrome!'
     }
   }
-  outputElement.value = 'Palindrome!'
+  return outputElement.value = 'Palindrome!'
 }
-
-console.log(palindromeCheck())
 
 // RESET APP
 const clearScreen = () => {
-  outputElement.value = ''
-  inputElement.value = ''
+  if (inputElement.value !== '') {
+    return inputElement.value = ''
+  }
+  return outputElement.value = ''
 }
-
-console.log(clearScreen())
