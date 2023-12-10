@@ -20,7 +20,6 @@ const palindromeCheck = () => {
 const action1 = palindromeCheck()
 console.log(action1())
 
-
 // RESET APP
 const clearScreen = () => {
   outputElement.value = ''
